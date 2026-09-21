@@ -7,7 +7,6 @@ Aesthetica es una plataforma web creada para facilitar la reserva de citas y adm
 
 ## Integrantes del grupo
 * Laureano Erasmo Barillas Valladares - BV253222
-* Diego Fernando Carranza Hernández - CH230459
 * Karen Lizeth Escalante Pérez - EP262414
 * Karina Lisseth Marquez Ortiz - MO262840
 * David Antonio Ramos Melgar - RM253375

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Iniciar sesión · Esthetica</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+<body>
+  <main class="pantalla-auth">
+    <section class="tarjeta-auth">
+      <h1 class="marca">Esthetica</h1>
+      <p class="marca-sub">Reserva tu cita en minutos.</p>
+
+      <div id="aviso" role="alert"></div>
+
+      <form id="form-login" novalidate>
+        <div class="mb-3">
+          <label for="correo" class="form-label">Correo</label>
+          <input type="email" class="form-control" id="correo" placeholder="nombre@correo.com" autocomplete="email">
+          <span class="mensaje-error" id="error-correo"></span>
+        </div>
+
+        <div class="mb-3">
+          <label for="password" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="password" autocomplete="current-password">
+          <span class="mensaje-error" id="error-password"></span>
+        </div>
+
+        <button type="submit" class="btn btn-salon w-100">Entrar</button>
+      </form>
+
+      <p class="text-center mt-4 mb-0">
+        ¿Primera vez aquí? <a href="registro.html" class="enlace-salon">Crea tu cuenta</a>
+      </p>
+
+      <hr class="my-4">
+      <p class="small text-muted mb-0">
+        Cuenta de prueba (administradora): admin@esthetica.com / Admin123
+      </p>
+    </section>
+  </main>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
