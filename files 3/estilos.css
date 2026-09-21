@@ -1,0 +1,60 @@
+:root{
+  --ciruela:#3B1F2B;
+  --rosa:#C97B8E;
+  --arena:#F6EFEA;
+  --tinta:#1E1418;
+  --error:#B02A37;
+}
+body{
+  background:var(--arena);
+  color:var(--tinta);
+  font-family:"Segoe UI",system-ui,sans-serif;
+}
+.pantalla-auth{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:1.5rem;
+}
+.tarjeta-auth{
+  width:100%;
+  max-width:420px;
+  background:#fff;
+  border-radius:18px;
+  padding:2.25rem 2rem;
+  box-shadow:0 18px 40px rgba(59,31,43,.14);
+}
+.marca{
+  font-size:1.6rem;
+  font-weight:700;
+  color:var(--ciruela);
+  letter-spacing:.5px;
+  margin-bottom:.25rem;
+}
+.marca-sub{color:var(--rosa);font-size:.95rem;margin-bottom:1.75rem;}
+.form-label{font-weight:600;font-size:.9rem;color:var(--ciruela);}
+.form-control:focus{
+  border-color:var(--rosa);
+  box-shadow:0 0 0 .2rem rgba(201,123,142,.25);
+}
+.btn-salon{
+  background:var(--ciruela);
+  color:#fff;
+  font-weight:600;
+  padding:.65rem;
+  border:none;
+}
+.btn-salon:hover{background:#52293a;color:#fff;}
+.mensaje-error{
+  color:var(--error);
+  font-size:.82rem;
+  min-height:1.1rem;
+  display:block;
+  margin-top:.25rem;
+}
+.enlace-salon{color:var(--rosa);font-weight:600;text-decoration:none;}
+.enlace-salon:hover{text-decoration:underline;}
+.barra-superior{background:var(--ciruela);color:#fff;}
+.barra-superior .navbar-brand,.barra-superior .nav-link{color:#fff;}
+.badge-rol{background:var(--rosa);}
